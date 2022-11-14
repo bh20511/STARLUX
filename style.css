@@ -1,0 +1,742 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.bgimg {
+    background-color: black;
+    background: url(./bgimg3.png) no-repeat;
+    background-size: cover;
+
+}
+
+.little-head {
+    background: rgb(15, 45, 60);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.haterwd {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px
+}
+
+.little-head .head-left {
+    width: 55%;
+    display: flex;
+    align-items: center;
+}
+
+.little-head .head-left a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.little-head .head-left svg {
+    width: 20px;
+    min-width: 15px;
+    margin-right: 10px;
+    fill: red;
+}
+
+.little-head .head-right {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.title {
+    background: #134556d1;
+
+    padding: 10px
+}
+
+.title-right {
+    display: flex;
+    align-items: center;
+}
+
+.title-right svg {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    fill: #f9c78b;
+}
+
+.desktop {
+    display: none;
+}
+
+.top-from svg path {
+    fill: #f9c78b;
+}
+
+.h_a {
+    display: none;
+}
+
+/* 第三區 */
+.main {
+    background-color: #51185fa2;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.main-bottom {
+    background-color: #48324f;
+    padding: 5px 8px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.top-start p {
+    font-size: 26px;
+}
+
+.top-start p:last-child {
+    font-size: 12px;
+}
+
+
+.top-arrive p {
+    font-size: 26px;
+}
+
+.top-arrive p:last-child {
+    font-size: 12px;
+}
+
+
+
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bottom-left p:first-child {
+    font-size: 12px;
+    color: #f9c78b;
+}
+
+.bottom-left p:last-child {
+    font-size: 12px;
+}
+
+.bottom-right .test {
+    color: #f9c78b;
+}
+
+/* 背景圖文字區 */
+.txt {
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px 0;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+
+.txt h2 {
+    color: #fff;
+    position: absolute;
+    top: 260px;
+    left: 20px;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.txt p {
+    display: none;
+}
+
+.arrowbtn {
+    width: 120px;
+    background-color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrowbtn .right-1 .ibox {
+    padding-left: 15px;
+    border-left: 1px solid #f9c78b;
+}
+
+.right-1 i,
+svg,
+span {
+    color: #f9c78b;
+}
+
+.good i,
+svg,
+span {
+    color: #fff;
+}
+
+.right-1 i:first-child {
+    margin-right: 5px;
+}
+
+.right-2 {
+    color: #f9c78b;
+}
+
+/* menu選單區 */
+.menu-box {
+    background-color: #2c2322f1;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-top: 1px solid #fff;
+
+}
+
+.menu-box .menu svg {
+    height: 25px;
+    fill: #fff;
+}
+
+.menu p {
+    margin-left: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    ;
+}
+
+.menu .b3 {
+    border-bottom: 1px solid #fff;
+}
+
+
+/* view */
+
+.view {
+    width: 100%;
+    background: #08202D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.view p {
+    color: #fff;
+    font-size: 35px;
+    margin: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    margin-bottom: 20px;
+
+}
+
+.imgwrap {
+    /* width: 100%;  */
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.imgwrap img {
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+
+}
+
+.paper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+/* Starlights */
+.card svg {
+    width: 15px;
+}
+
+.paper p {
+    height: 30px;
+    margin-left: 15px;
+    font-size: 13px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.Starlights {
+    background-color: #0F2D3C;
+}
+
+.card-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+}
+
+.footer {
+    background: #4E463F;
+    padding: 30px 10px;
+}
+
+.footer p {
+    color: #fff;
+}
+
+.footer .about .footer-box {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.footer .about .footer-box a,
+i {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sns {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.sns-icos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.foot-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #363331;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.foot-img img {
+    width: 30px;
+    height: 30px;
+}
+
+.download {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+
+}
+
+.download-img {
+    width: 50%;
+
+}
+
+.download-img img {
+    width: 100%;
+}
+
+
+.copyright {
+    background: #413B37;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.copyright .text span {
+    color: #fff;
+}
+
+.copyright .text span:first-child {
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.copyright .text span:last-child {
+    font-weight: 300;
+    font-size: 10px;
+}
+
+.copyright p {
+    color: #fff;
+    font-size: 10px;
+}
+
+.haha {
+    fill: white;
+
+}
+
+.copybottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.copybottom svg {
+    width: 30px;
+}
+
+.copybottom svg:last-child {
+    width: 90px;
+}
+
+
+.card1 p {
+    padding: 20px;
+    align-self: center;
+}
+
+.hello {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width:768px) {
+    .card {
+        width: 33.333333333%;
+        padding: 20px;
+    }
+
+    .card-wrap {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .h_s {
+        height: 40%;
+    }
+
+    .bgimg {
+        background-image: url(./beaches.png);
+    }
+
+}
+
+@media (min-width:1080px) {
+    .title {
+        height: 130px;
+    }
+
+    .haterwd {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .box-a {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .box-a a {
+        text-decoration: none;
+
+        width: 16.284%;
+        padding: 20px 20px;
+        text-align: center;
+        margin-right: 10px;
+
+
+    }
+
+    .box-a a:hover {
+        border: 1px solid white;
+        color: #f9c78b;
+    }
+
+
+    .h_a {
+        display: flex;
+        width: 85%;
+        height: 60%;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .title-right>svg {
+        display: none;
+    }
+
+    .desktop {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .left {
+        margin: 0 5px;
+        border-left: 1px solid #fff;
+        border-right: 1px solid #fff;
+        padding-left: 8px;
+    }
+
+    .desktop svg {
+        margin-right: 10px;
+        margin-left: 3px;
+    }
+
+    .desktop span {
+        color: #f9c78b;
+    }
+
+    .left span:first-child {
+        color: white;
+    }
+
+    .haterwd {
+        flex-direction: row;
+    }
+
+    .hello {
+        justify-content: flex-start;
+    }
+
+    .main-top {
+        max-width: 400px;
+        margin-bottom: 0px;
+        margin-right: 20px;
+    }
+
+    .main-top p {
+        display: inline;
+    }
+
+    .main-bottom {
+        max-width: 400px;
+    }
+
+    .txt h2 {
+        font-size: 60px;
+        top: 200px;
+        left: 50px;
+    }
+
+    .txt p {
+        display: block;
+        position: absolute;
+        top: 300px;
+        left: 50px;
+    }
+
+    .arrowbtn {
+        align-self: flex-end;
+        margin-bottom: 20px;
+        margin-right: 50px;
+        width: 120px;
+    }
+
+    .arrowbtn::before {
+        content: 'Thailand';
+        position: absolute;
+        top: 250px;
+        right: 50px;
+        color: #fff;
+        font-size: 40px;
+    }
+
+    .menu-box {
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        display: flex;
+        justify-content: center;
+        padding: 15px 0;
+    }
+
+    .menu {
+        width: 30%;
+        justify-content: center;
+        border-top: 0px;
+
+    }
+
+    .menu p {
+        font-size: 20px;
+    }
+
+    .b2 {
+        border-left: 1px solid #fff;
+        border-right: 1px solid #fff;
+
+    }
+
+    .menu-box .menu svg {
+        height: 40px;
+        /* margin-top:5px; */
+        /* margin-bottom:5px; */
+        margin-right: 5px;
+    }
+
+    .imgwrap {
+        height: 180px;
+    }
+
+    .imgwrap img {
+        object-position: center center;
+    }
+
+    .paper {
+        padding-top: 20px;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .footer-banner {
+        width: 80%;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .footertop {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .deskabout,
+    .deskannounce,
+    .deskweb {
+        width: 33.33333333%;
+        box-sizing: border-box;
+        padding-right: 50px;
+        padding-left: 10px;
+    }
+
+    .footertop h3 {
+        font-weight: 200;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+
+    .footertop p {
+        font-weight: 200;
+        margin: 10px 0;
+
+    }
+
+    .footerbottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footerbottom p {
+        margin-bottom: 15px;
+    }
+
+    .sns-icos {
+        margin-left: -10px;
+    }
+
+
+    .copybanner {
+        display: flex;
+        width: 80%;
+        max-width: 1200px;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center
+    }
+
+    .text span {
+        align-self: flex-end;
+    }
+
+    .text p {
+        margin: 0;
+    }
+
+    .paper svg {
+        width: 15px;
+    }
+
+    .paper p {
+        width: 90%;
+        height: 20px;
+    }
+
+}
